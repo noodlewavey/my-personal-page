@@ -1,27 +1,27 @@
 import Image from "next/image";
 import styles from "./styles.module.scss";
 
-const Card = () => {
+const Card2 = () => {
   return (
     <div className={styles.card}>
       <div className={styles.cardContent}>
         <div className={styles.contentTop}>
-          <h2>01 / TRAITMATE DATING APP</h2>
+          <h2>02 / TELL ME WHERE TO GO</h2>
 
           <p className={styles.subtitle}>
-            A dating app which matches users with other people based on their
-            Big Five personality score.
+            A react web app which gives you directions to be translated in many
+            languages, along with Google Streetview Photos of every part of your
+            journey. Help a tourist out!
           </p>
 
           <p>
-            Front-end developed in ReactJS using Material UI Components, backend
-            developed with Java Spring Boot, with user authentication secured
-            with Spring Security and a user database created with MySQL.
+            Front-end developed in ReactJS using Material UI Components, API
+            calls handled using a Node.js server with Express
           </p>
         </div>
 
         <a href="https://google.com" target="_blank" rel="noreferrer">
-          Try out my dating app! ↗
+          Look at some directions here! ↗
         </a>
       </div>
 
@@ -42,4 +42,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Card2;

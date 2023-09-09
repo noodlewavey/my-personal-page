@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { IconDown } from "./icon";
 import styles from "./styles.module.scss";
+import CircularImage from "../CircularImage";
 
 type Props = {
   isHome?: boolean;
@@ -11,9 +12,7 @@ const Header = ({ isHome }: Props) => {
     <header className={styles.container}>
       <nav>
         <div className={styles.navTop}>
-          <Link href="/">
-            <a>🧑🏽‍💻</a>
-          </Link>
+          <CircularImage />
 
           <ul>
             <li>
