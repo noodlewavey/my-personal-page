@@ -1,8 +1,9 @@
 import React from "react";
 import Image from "next/dist/client/image";
-import image from "./mememe.jpeg";
 
 const CircularImage = () => {
+  const myface = "/mememe.jpeg";
+
   return (
     <div
       style={{
@@ -12,7 +13,7 @@ const CircularImage = () => {
         overflow: "hidden",
       }}
     >
-      <Image src={image} alt="A pic of me" />
+      <Image src={myface} alt="A pic of me" width="100px" height="100px" />
     </div>
   );
 };
