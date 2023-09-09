@@ -24,8 +24,7 @@ const Card = () => {
           Try out my dating app! ↗
         </a>
       </div>
-
-      <div className={styles.containerImage}>
+      <div style={{ borderRadius: "15px", overflow: "hidden" }}>
         <Image
           src={"/artem-riasnianskyi.jpg"}
           blurDataURL={"/artem-riasnianskyi.jpg"}
@@ -34,7 +33,6 @@ const Card = () => {
           width={640}
           height={480}
           quality={100}
-          layout="fixed"
           loading="lazy"
         />
       </div>

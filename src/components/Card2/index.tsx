@@ -25,7 +25,7 @@ const Card2 = () => {
         </a>
       </div>
 
-      <div className={styles.containerImage}>
+      <div style={{ borderRadius: "15px", overflow: "hidden" }}>
         <Image
           src={"/artem-riasnianskyi.jpg"}
           blurDataURL={"/artem-riasnianskyi.jpg"}
