@@ -1,12 +1,15 @@
-$mainBlack: #181717;
+$mainBlack: #f3f3f3;
 $mainGray: #606060;
-$mainWhite: #f3f3f3;
+$mainWhite: #000000;
 $secondary: #2429af;
+
+
 
 @mixin heading1 {
   font-family: 'PPEditorial Ultralight Italic';
   font-weight: 100;
   font-size: 100px;
+  color:#bfbfbf;
   line-height: 1;
   letter-spacing: -0.02em;
 }
@@ -14,19 +17,23 @@ $secondary: #2429af;
 @mixin heading2 {
   font-weight: 400;
   font-size: 32px;
+  color:#bfbfbf;
   line-height: 1.1;
   letter-spacing: -0.02em;
 }
 
 @mixin body {
   font-weight: 100;
+  color:#bfbfbf;
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: -0.02em;
+  background-color: black;
 }
 
 @mixin navigation {
   font-weight: 100;
+  color: #bfbfbf;
   font-size: 21px;
   line-height: 1.2;
   letter-spacing: -0.02em;
@@ -34,6 +41,7 @@ $secondary: #2429af;
 
 @mixin subText {
   font-weight: 100;
+  color:#bfbfbf;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: -0.02em;

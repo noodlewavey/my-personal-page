@@ -18,19 +18,19 @@ const Header = ({ isHome }: Props) => {
           <ul>
             <li>
               <Link href="/">
-                <a>About</a>
+                <a>Github</a>
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>404</a>
+                <a>LinkedIn</a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/">
                 <a>Styleguide</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
@@ -38,10 +38,11 @@ const Header = ({ isHome }: Props) => {
       {isHome === true ? (
         <>
           <div className={styles.content}>
-            <h1>Hello, I`m Rychillie</h1>
+            <h1>Hello, I`m Jasmine!</h1>
 
             <p style={{ fontWeight: "100" }}>
-              A senior front-end developer specializing in open source.
+              McGill CS Student looking for a backend/full-stack developer
+              internship.
             </p>
           </div>
           <IconDown />

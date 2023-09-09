@@ -4,22 +4,22 @@ import styles from "./styles.module.scss";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <p>Rychillie Umpierre de Oliveira ⏤{new Date().getFullYear()}</p>
+      <p></p>
 
       <ul>
         <li>
           <Link href="/">
-            <a>Twitter</a>
+            <a>.</a>
           </Link>
         </li>
         <li>
           <Link href="/">
-            <a>Github</a>
+            <a>.</a>
           </Link>
         </li>
         <li>
           <Link href="/">
-            <a>Linkedin</a>
+            <a>.</a>
           </Link>
         </li>
       </ul>
