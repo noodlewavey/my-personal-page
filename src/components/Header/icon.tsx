@@ -15,6 +15,7 @@ export const IconDown = () => (
       position: "relative",
       left: "18rem", //increasing this shifts to the left..
       top: "-20rem",
+      zIndex: "-100",
     }}
   >
     {/* Render the image */}
