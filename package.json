@@ -1,13 +1,10 @@
 {
-  "homepage": "http://noodlewavey.github.io/my-personal-page",
-  "name": "my-personal-page",
+  "name": "mportfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
