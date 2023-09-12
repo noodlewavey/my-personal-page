@@ -6,45 +6,28 @@ import { useInView } from "react-intersection-observer";
 
 const Card = () => {
   const { ref, inView } = useInView({
-    threshold: 0.1,
+    threshold: 0.3,
   });
 
   const cardAnimation = useAnimation();
   const imageAnimation = useAnimation();
 
-  useEffect(() => {
-    if (inView) {
-      cardAnimation.start({
-        x: 0,
-        transition: {
-          type: "spring",
-          duration: 2.5,
-          bounce: 0.3,
-        },
-      });
-      imageAnimation.start({
-        x: 0,
-        transition: {
-          type: "spring",
-          duration: 2.5,
-          bounce: 0.3,
-        },
-      });
-    }
-
-    if (!inView) {
-      cardAnimation.start({
-        x: "-100vw",
-      });
-      imageAnimation.start({
-        x: "100vw",
-      });
-    }
-  }, [inView]);
-
   return (
     <div className={styles.card}>
-      <motion.div className={styles.cardContent} animate={cardAnimation}>
+      <motion.div
+        className={styles.cardContent}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{
+          duration: 2,
+          type: "spring",
+        }}
+        variants={{
+          visible: { opacity: 1, scale: 1 },
+          hidden: { opacity: 0, scale: 0 },
+        }}
+      >
         <div className={styles.contentTop}>
           <h2>01 / TRAITMATE DATING APP</h2>
           <p className={styles.subtitle}>
@@ -62,7 +45,19 @@ const Card = () => {
         </div>
       </motion.div>
       <div ref={ref}>
-        <motion.div animate={imageAnimation}>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{
+            duration: 2,
+            type: "spring",
+          }}
+          variants={{
+            visible: { opacity: 1, scale: 1 },
+            hidden: { opacity: 0, scale: 0 },
+          }}
+        >
           <div style={{ borderRadius: "15px", overflow: "hidden" }}>
             <Image
               src={"/artem-riasnianskyi.jpg"}
