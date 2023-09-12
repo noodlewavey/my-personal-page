@@ -40,8 +40,7 @@ const Header = ({ isHome }: Props) => {
             <h1>Hello, I`m Jasmine!</h1>
 
             <p style={{ fontWeight: "100" }}>
-              McGill CS Student looking for a backend/full-stack developer
-              internship.
+              McGill CS Student looking for a Software Engineering Internship
             </p>
           </div>
           <IconDown />
