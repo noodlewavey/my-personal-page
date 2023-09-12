@@ -1,6 +1,6 @@
 {
   "homepage": "http://noodlewavey.github.io/my-personal-page",
-  "name": "mportfolio",
+  "name": "my-personal-page",
   "private": true,
   "scripts": {
     "dev": "next dev",
