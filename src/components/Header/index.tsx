@@ -25,11 +25,11 @@ const Header = ({ isHome }: Props) => {
                 <a>LinkedIn</a>
               </Link>
             </li>
-            {/* <li>
-              <Link href="/">
-                <a>Styleguide</a>
-              </Link>
-            </li> */}
+            <li>
+              {/* <Link href="/"> */}
+              <a>email:jasminewangdev@outlook.com</a>
+              {/* </Link> */}
+            </li>
           </ul>
         </div>
       </nav>
