@@ -1,10 +1,13 @@
 {
+  "homepage": "http://noodlewavey.github.io/my-personal-page",
   "name": "mportfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -25,6 +28,7 @@
     "@types/react": "17.0.37",
     "eslint": "7",
     "eslint-config-next": "12.0.4",
+    "gh-pages": "^6.0.0",
     "typescript": "4.5.2"
   }
 }
