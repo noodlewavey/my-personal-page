@@ -59,15 +59,14 @@ const Card = () => {
           }}
         >
           <div style={{ borderRadius: "15px", overflow: "hidden" }}>
-            <Image
-              src={"/artem-riasnianskyi.jpg"}
-              blurDataURL={"/artem-riasnianskyi.jpg"}
-              alt="artem-riasnianskyi"
-              placeholder="blur"
-              width={640}
-              height={480}
-              quality={100}
-            />
+            <iframe
+              width="640"
+              height="480"
+              src="https://www.youtube.com/watch?v=jM0Q1Tf7Sds"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </motion.div>
       </div>
