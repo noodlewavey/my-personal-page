@@ -43,31 +43,31 @@ const CardPhoto = () => {
           >
             <div className={styles.graphImg}>
               <Image
-                src={"/artem-riasnianskyi.jpg"}
+                src={"/bigfiveprofile.png"}
                 blurDataURL={"/artem-riasnianskyi.jpg"}
                 alt="artem-riasnianskyi"
                 placeholder="blur"
-                width={600}
-                height={600}
+                width={1300}
+                height={700}
                 quality={100}
                 border-radius="15px"
               />
               <Image
-                src={"/artem-riasnianskyi.jpg"}
+                src={"/template.png"}
                 blurDataURL={"/artem-riasnianskyi.jpg"}
                 alt="artem-riasnianskyi"
                 placeholder="blur"
-                width={600}
-                height={600}
+                width={1300}
+                height={700}
                 quality={100}
               />
               <Image
-                src={"/artem-riasnianskyi.jpg"}
+                src={"/template2.png"}
                 blurDataURL={"/artem-riasnianskyi.jpg"}
                 alt="artem-riasnianskyi"
                 placeholder="blur"
-                width={600}
-                height={600}
+                width={1300}
+                height={700}
                 quality={100}
               />
             </div>
