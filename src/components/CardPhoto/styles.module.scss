@@ -1,0 +1,12 @@
+
+.graphImg {
+    display: flex;
+    gap: 10rem; /* Or whatever value you want */
+}
+
+.graphImg img {
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #54595F70;
+    border-radius: 15px 15px 15px 15px;
+}
