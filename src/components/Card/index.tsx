@@ -39,7 +39,7 @@ const Card = () => {
             developed with Java Spring Boot, with user authentication secured
             with Spring Security and a user database created with MySQL.
           </p>
-          <a href="https://google.com" target="_blank" rel="noreferrer">
+          <a href="http://traitmate.vercel.app" target="_blank" rel="noreferrer">
             Try out my dating app! ↗
           </a>
         </div>
