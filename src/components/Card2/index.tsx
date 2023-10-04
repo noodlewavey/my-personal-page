@@ -60,12 +60,12 @@ const Card2 = () => {
         >
           <div style={{ borderRadius: "15px", overflow: "hidden" }}>
             <Image
-              src={"/artem-riasnianskyi.jpg"}
+              src={"/wheretogo.png"}
               blurDataURL={"/artem-riasnianskyi.jpg"}
               alt="artem-riasnianskyi"
               placeholder="blur"
               width={640}
-              height={480}
+              height={400}
               quality={100}
             />
           </div>

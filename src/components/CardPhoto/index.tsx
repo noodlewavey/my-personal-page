@@ -43,7 +43,7 @@ const CardPhoto = () => {
           >
             <div className={styles.graphImg}>
               <Image
-                src={"/bigfiveprofile.png"}
+                src={"/imageprof.png"}
                 blurDataURL={"/artem-riasnianskyi.jpg"}
                 alt="artem-riasnianskyi"
                 placeholder="blur"
@@ -53,7 +53,7 @@ const CardPhoto = () => {
                 border-radius="15px"
               />
               <Image
-                src={"/template.png"}
+                src={"/imagemain.png"}
                 blurDataURL={"/artem-riasnianskyi.jpg"}
                 alt="artem-riasnianskyi"
                 placeholder="blur"

@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NextSeo
-        title="M-Portfólio"
+        title="Jasmine"
         description="Your minimalist, personal portfolio"
       />
 
