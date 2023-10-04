@@ -39,8 +39,8 @@ const Card2 = () => {
             Front-end developed in ReactJS using Material UI Components, API
             calls handled using a Node.js server with Express
           </p>
-          <a href="https://google.com" target="_blank" rel="noreferrer">
-            Look at some directions here! ↗
+          <a href="https://where-to-go-maps.vercel.app/" target="_blank" rel="noreferrer">
+            Try my directions app! ↗
           </a>
         </div>
       </motion.div>

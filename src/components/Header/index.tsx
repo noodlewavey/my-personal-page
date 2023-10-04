@@ -16,7 +16,7 @@ const Header = ({ isHome }: Props) => {
 
           <ul>
             <li>
-              <Link href="/">
+              <Link href="https://github.com/noodlewavey/">
                 <a>Github</a>
               </Link>
             </li>
