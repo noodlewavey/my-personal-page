@@ -12,7 +12,7 @@ const Header = ({ isHome }: Props) => {
     <header className={styles.container}>
       <nav>
         <div className={styles.navTop}>
-          <CircularImage />
+          {/* <CircularImage /> */}
 
           <ul>
             <li>
