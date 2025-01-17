@@ -62,7 +62,7 @@ const Card = () => {
             <iframe
               width="640"
               height="480"
-              src="https://www.youtube.com/embed/cHa9tw_Cbsc?si=R08F8f8XL-nVTzpz"
+              src="https://www.youtube.com/embed/AuK5or_OVRE?si=V_hKBY81Gn4lcYn1"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
